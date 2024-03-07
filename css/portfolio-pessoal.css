@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+        margin: 0;
+    }
+    header >img{
+        width: 120px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px; /* define a largura maxima da linha*/
+        margin: 0 auto;
+        align-items: center;  /*centralizacao vertical dos elementos*/
+        margin-top: 5px;
+    }
+    #menu{
+        display: flex;
+        /* flex-wrap: wrap; */
+        gap: 10px; /* espeço entre o elemento do menu*/
+        list-style: none; /* tira o marcador da lista/remove a bolinha*/
+    }
+    #menu a{
+        text-decoration: none; /* remove o sublinhado do link*/
+        color: #000;  /*muda a cor do texto*/
+        padding: 8px 18px; /* define o espaço interno do elemento*/
+       font-size: 1.5rem; /*ajusta a resoluçao da fonte rem e uma medida de fonte responsiva */
+    }
+    
