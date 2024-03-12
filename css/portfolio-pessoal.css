@@ -62,5 +62,28 @@
         margin-top: 0px;
         color: #6e6d6d;
     }
+    /* seçao projeto - INICIO */
+    #projetos{
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 110px;
+    }
+    #projetos h2{
+        font-size: 8rem;
+        line-height: 1; 
+        text-transform: uppercase; /*transforma o testo em maiusculo*/
+        word-break: break-all; /* quebra de caractere*/
+        max-width: 5ch; /* espaçamento entre os caractere*/
+        color: #202d73;
+    }
+
+
+
+
+
+
+
+    /* sessao projeto - FINAL */
 
     
