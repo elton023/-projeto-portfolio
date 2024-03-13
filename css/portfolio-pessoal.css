@@ -46,6 +46,7 @@
         padding: 35px 20px; 
         gap: 110px;
         align-items: center;
+        color: #071257;
     }
     #perfil-dados > h1{
         font-size: 4rem;
@@ -76,6 +77,62 @@
         word-break: break-all; /* quebra de caractere*/
         max-width: 5ch; /* espaçamento entre os caractere*/
         color: #202d73;
+    }
+
+    /* pra dar destaque no meio da frase  */
+    .principal-destaque{
+        font-weight: bold;
+        background: #202c73;
+        padding: 4px;
+        border-radius: 2px 6px;
+        color: #fff;
+    }
+
+    #projetos-textos-principal{
+        line-height: 1.8;
+        font-size: 1.3rem;
+        
+    }
+
+    #projeto-lista{
+        background: #071257b6 ;
+        display: grid; 
+        grid-template-columns: 1fr 1fr; /*templete modelo padrao( fr divide os tamanho iguais)*/
+        /* grid-template-columns: repeat(2.1fr); ou usar da no mesmo padrao*/
+        color: #fff;
+        padding: 10px 20px;
+        gap: 20px;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+
+    #projeto-lista h3{
+        margin: 0;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    #projeto-lista p{
+        margin: 0;
+        padding: 0;
+        color: #b9b8b8;
+    }
+
+    #projetos-tags{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 10px;
+              
+    }
+
+    #projetos-tags li{
+        background-color: #fff;
+        color: #2338c4;
+        border-radius: 4px;
+        padding: 4px 8px;
+        
     }
 
 
