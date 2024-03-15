@@ -65,81 +65,80 @@
         color: #6e6d6d;
     }
     /* seçao projeto - INICIO */
-    #projetos{
-        display:grid;
-        grid-template-columns: 1fr 2fr;
-        max-width: 1200px;
-        margin: 0 auto;
-        gap: 110px;
-    }
-    #projetos h2{
-        font-size: 8rem;
-        line-height: 1; 
-        text-transform: uppercase; /*transforma o testo em maiusculo*/
-        word-break: break-all; /* quebra de caractere*/
-        max-width: 4ch; /* espaçamento entre os caractere*/
-        color: #202d73;
-    }
+#projetos{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 110px;
+}
+#projetos h2{
+    font-size: 8rem;
+    line-height: 1; 
+    text-transform: uppercase; /*transforma o testo em maiusculo*/
+    word-break: break-all; /* quebra de caractere*/
+    max-width: 4ch; /* espaçamento entre os caractere*/
+    color: #202d73;
+}
 
     /* pra dar destaque no meio da frase  */
-    .principal-destaque{
-        font-weight: bold;
-        background: #202c73;
-        padding: 4px;
-        border-radius: 2px 6px;
-        color: #fff;
-    }
+.principal-destaque{
+    font-weight: bold;
+    background: #202c73;
+    padding: 4px;
+    border-radius: 2px 6px;
+    color: #fff;
+}
 
-    #projetos-textos-principal{
-        line-height: 1.8;
-        font-size: 1.8rem;
-        margin-bottom: 4rem;
-        
-    }
+#projetos-textos-principal{
+    line-height: 1.8;
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
 
-    #projeto-lista{
-        background: #071257b6 ;
-        display: grid; 
-        grid-template-columns: 1fr 1fr; /*templete modelo padrao( fr divide os tamanho iguais)*/
-        /* grid-template-columns: repeat(2.1fr); ou usar da no mesmo padrao*/
-        color: #fff;
-        padding:20px;
-        gap: 20px;
-        border-radius: 5px;
-        margin-top: 15px;
-    }
+#projeto-lista{
+    background: #071257b6 ;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; /*templete modelo padrao( fr divide os tamanho iguais)*/
+    /* grid-template-columns: repeat(2.1fr); ou usar da no mesmo padrao*/
+    color: #fff;
+    padding:20px;
+    gap: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
 
-    #projeto-lista h3{
-        margin: 0;
-        padding: 0;
-        font-size: 1.2rem;
-    }
+#projeto-lista h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
 
-    #projeto-lista p{
-        margin: 0;
-        padding: 0;
-        color: #b9b8b8;
-    }
+#projeto-lista p{
+    margin: 0;
+    padding: 0;
+    color: #b9b8b8;
+}
 
-    #projetos-tags{
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        gap: 10px;
-        align-items: start; /* alinhamento vertical/*
-        /* start =inicio
-           center = centro
-           end = final
-         */
+#projetos-tags{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    align-items: start; /* alinhamento vertical/*
+    /* start =inicio
+    center = centro
+    end = final
+     */
               
-    }
+}
 
-    #projetos-tags li{
-        background-color: #fff;
-        color: #000000;
-        border-radius: 4px;
-        padding: 4px 8px;
+#projetos-tags li{
+    background-color: #fff;
+    color: #000000;
+    border-radius: 4px;
+    padding: 4px 8px;
         
 
     }
@@ -164,8 +163,47 @@
         word-break: break-all;
         max-width: 4ch; 
         text-transform: uppercase;
-
     }
+
+    .destaque-final{
+        font-weight: bold;
+        background: #202c73c9;
+        border-radius: 2px 6px;
+        color: #fff;
+        margin-top: 50px;
+    }
+
+    #cursos-texto-principal{
+        margin-top: 40px;
+        font-size: 1.2rem;
+        color: #b9b8b8;
+    }
+
+.conteiner-final{
+        background: #fff;
+        display: flex;
+        gap: 25px;
+}
+
+.curso{
+    padding: 25px;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.primeiro{
+    font-size: 0.97rem;
+    color: #a19e9e;
+}
+
+.segundo{
+    font-size: 1rem;
+    color: #f70f0f;
+}
+.terceiro{
+    font-size: 0.97rem;
+    color: #a19e9e;
+}
 
 
     
