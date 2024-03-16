@@ -135,70 +135,76 @@
 }
 
 #projetos-tags li{
-    background-color: #fff;
-    color: #000000;
-    border-radius: 4px;
-    padding: 4px 8px;
+background-color: #fff;
+color: #000000;
+border-radius: 4px;
+padding: 4px 8px;
         
 
-    }
+}
     /* sessao projeto - FINAL */
     /* inicio da sessao cursos */
-    #cursos{
-        background-color: #071257b6;
-        margin-top: 50px;
+#cursos{
+background-color: #071257b6;
+margin-top: 50px;
+}
+
+#cursos-grid{
+display: grid;
+grid-template-columns: 1fr 2fr;
+max-width: 1200px;
+margin: 0 auto;
+gap: 110px;
+}
+
+#cursos-grid h2{
+    font-size: 8rem;
+    color: #fff;
+    word-break: break-all;
+    max-width: 4ch; 
+    text-transform: uppercase;
+}
+
+.destaque-final{
+    font-weight: bold;
+    background: #fff;
+    border-radius: 2px 6px;
+    color: #202c73ee;
+    margin-top: 50px;
     }
 
-    #cursos-grid{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        max-width: 1200px;
-        margin: 0 auto;
-        gap: 110px;
-    }
-
-    #cursos-grid h2{
-        font-size: 8rem;
-        color: #fff;
-        word-break: break-all;
-        max-width: 4ch; 
-        text-transform: uppercase;
-    }
-
-    .destaque-final{
-        font-weight: bold;
-        background: #202c73c9;
-        border-radius: 2px 6px;
-        color: #fff;
-        margin-top: 50px;
-    }
-
-    #cursos-texto-principal{
-        margin-top: 40px;
-        font-size: 1.2rem;
-        color: #b9b8b8;
-    }
+#cursos-texto-principal{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #b9b8b8;
+}
 
 .conteiner-final{
-        background: #fff;
-        display: flex;
-        gap: 25px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+
 }
 
 .curso{
+    display: flex;
+    flex: 1;
+    background: #202c73;
     padding: 25px;
     border-radius: 4px;
-    padding: 4px 8px;
+    margin-top: 40px;
+    flex-direction: column;
 }
 
 .primeiro{
     font-size: 0.97rem;
     color: #a19e9e;
+ 
 }
 
 .segundo{
     font-size: 1rem;
-    color: #f70f0f;
+    color: #db2424;
 }
 .terceiro{
     font-size: 0.97rem;
