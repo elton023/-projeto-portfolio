@@ -40,30 +40,30 @@
     }
     
     #perfil{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 35px 20px; 
-        gap: 110px;
-        align-items: center;
-        color: #071257;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 35px 20px; 
+    gap: 110px;
+    align-items: center;
+    color: #071257;
     }
-    #perfil-dados > h1{
-        font-size: 4rem;
-        line-height: 1.4; /*ele da um afastamento de uma linha e outra*/
-        /* letter-spacing: ; espaçamentos das letras */
-        font-weight: 400;
-        font-style: italic;
-    }
-    #perfil-dados > h2{
-        padding-bottom: 0px;    
-        margin-bottom: 0px;
-    }
-    #perfil-dados >p{
-        margin-top: 0px;
-        color: #6e6d6d;
-    }
+#perfil-dados > h1{
+    font-size: 4rem;
+    line-height: 1.4; /*ele da um afastamento de uma linha e outra*/
+    /* letter-spacing: ; espaçamentos das letras */
+    font-weight: 400;
+    font-style: italic;
+}
+#perfil-dados > h2{
+    padding-bottom: 0px;    
+    margin-bottom: 0px;
+}
+#perfil-dados >p{
+    margin-top: 0px;
+    color: #6e6d6d;
+}
     /* seçao projeto - INICIO */
 #projetos{
     display:grid;
