@@ -36,7 +36,7 @@
         text-decoration: none; /* remove o sublinhado do link*/
         color: #000;  /*muda a cor do texto*/
         padding: 8px 18px; /* define o espaço interno do elemento*/
-       font-size: 1.5rem; /*ajusta a resoluçao da fonte rem e uma medida de fonte responsiva */
+        font-size: 1.5rem; /*ajusta a resoluçao da fonte rem e uma medida de fonte responsiva */
     }
     
     #perfil{
@@ -196,20 +196,31 @@ gap: 110px;
     flex-direction: column;
 }
 
-.primeiro{
+.primeiro,.terceiro{
     font-size: 0.97rem;
     color: #a19e9e;
- 
 }
 
 .segundo{
     font-size: 1rem;
     color: #db2424;
 }
-.terceiro{
-    font-size: 0.97rem;
+
+#cursos-complementares{
+    margin-top: 40px;
+}
+#cursos-complementares h3{
     color: #a19e9e;
 }
+
+.cursos-complementares-itens{
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+
+
 
 
     
