@@ -217,6 +217,58 @@ gap: 110px;
     display: flex;
     justify-content: space-between;
 }
+
+.idiomas-cinza{
+    font-weight: bold;
+    color: #ffffffee;
+}
+/* inicio footer */
+footer{
+    /* background: #202c73ee; */
+    padding: 40px;
+    
+    
+}
+
+#footer-conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#form-grid input, select{
+    padding: 12px 20px;
+    border: 2px solid #202d73;
+    border-radius: 4px;
+
+    
+}
+.btn-contato{
+    padding: 12px 20px;
+    background: #202d73;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 20px auto;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 4px;
+}
+#footer-conteudo h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #202c73;
+}
+
+
+
+
+/* final footer */
     
     
 
