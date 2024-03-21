@@ -7,6 +7,9 @@
    
     font-family: "PT Serif", serif;
     }
+    html{
+        scroll-behavior: smooth; /*scroll com efeito suave*/
+    }
 
     body{
         margin: 0;
@@ -23,6 +26,8 @@
         margin: 0 auto;
         align-items: center;  /*centralizacao vertical dos elementos*/
         padding: 35px 20px;
+        min-height: 20vh;
+
     }
 
     #menu{
@@ -48,6 +53,7 @@
     gap: 110px;
     align-items: center;
     color: #071257;
+    min-height: 80vh 20vh;
     }
 #perfil-dados > h1{
     font-size: 4rem;
@@ -69,8 +75,12 @@
     display:grid;
     grid-template-columns: 1fr 2fr;
     max-width: 1200px;
+    align-items: center;
     margin: 0 auto;
     gap: 110px;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    
 }
 #projetos h2{
     font-size: 8rem;
@@ -146,7 +156,8 @@ padding: 4px 8px;
     /* inicio da sessao cursos */
 #cursos{
 background-color: #071257b6;
-margin-top: 50px;
+min-height: 100vh;
+
 }
 
 #cursos-grid{
@@ -226,6 +237,7 @@ gap: 110px;
 footer{
     /* background: #202c73ee; */
     padding: 40px;
+    min-height: 100vh;
     
     
 }
@@ -234,6 +246,7 @@ footer{
     max-width: 1200px;
     margin: 0 auto;
 }
+
 #form-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -248,6 +261,7 @@ footer{
 
     
 }
+
 .btn-contato{
     padding: 12px 20px;
     background: #202d73;
@@ -258,11 +272,53 @@ footer{
     border: none;
     border-radius: 4px;
 }
+
 #footer-conteudo h2{
     font-size: 5rem;
     text-transform: uppercase;
     text-align: center;
     color: #202c73;
+    letter-spacing: 20px;  /*espaço entre as letras */
+}
+
+#footer-inferior{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px 0px;  
+}
+
+#footer-inferior div{
+    background: #ffffffaf;
+}
+
+#footer-inferior a{
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #000000 ;
+}
+
+#footer-inferior a:hover{
+    color: #008cffb2;
+}
+
+.alinhar-centro{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.alinhar-direita{
+    text-align: right;
+}
+
+#copy{
+    padding: 20px 0px;
+    text-align: center;
+}
+#form-grid option{
+    font-size: 1.2rem;
 }
 
 
