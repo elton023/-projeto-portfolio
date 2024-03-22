@@ -155,8 +155,8 @@
 
                 <form action="">  <!--  tag de formulario  -->
                     
-                    <input type="text"name="nome"id="nome"placeholder="Nome">
-                    <input type="email"name="email"id="email"placeholder="E-mail">
+                    <input type="text"name="nome"id="nome"placeholder="Nome*">
+                    <input type="email"name="email"id="email"placeholder="E-mail*">
                     <input type="text"name="telefone"id="telefone"placeholder="Telefone">
                     <select name="tipo" id="tipo"><!-- select e elemento que a pessoa pode selecionar -->
                         <option value="selecione" disabled selected>Selecione...</option> 
@@ -166,7 +166,11 @@
                         <option value="contratar">Contratar</option> <!-- value serve pra mim ver o que vai ser exibido no back e nao mostra pra os usuario-->
                     </select>
                 </div>
-                    <button class="btn-contato" type="submit">Enviar </button>  
+                <textarea name="msg" id="msg"placeholder="Digite aqui sua mensagem*"></textarea>
+
+                <p id="form-aviso">*Campos obrigatórios</p>
+
+                <button class="btn-contato" type="button" onclick="enviarContato()">Enviar </button>  
                     <!-- para por o butao de enviar tem que usar o type submit  -->
                 </form>
                 <div id="footer-inferior">
@@ -194,12 +198,27 @@
                     <p>&copy; 2024 - Portfólio - Elton Olarte</p>
                 </div>
 
-            
+         
         </div>
-
-
         
     </footer>
+    <!-- java script inicio -->
+    <!-- escrevendo o codigo pra fazer uma determinada tarefa
+    e deixar dinamico -->
+
+<script>
+    function enviarContato(){
+
+        let nome = document.getElementById('nome')
+        alert(nome.value)
+
+    }
+
+
+
+
+</script>
+
 
 </body>
 </html>
