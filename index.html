@@ -157,9 +157,9 @@
                     
                     <input type="text"name="nome"id="nome"placeholder="Nome*">
                     <input type="email"name="email"id="email"placeholder="E-mail*">
-                    <input type="text"name="telefone"id="telefone"placeholder="Telefone">
+                    <input type="text"name="telefone"id="telefone"placeholder="Telefone*">
                     <select name="tipo" id="tipo"><!-- select e elemento que a pessoa pode selecionar -->
-                        <option value="selecione" disabled selected>Selecione...</option> 
+                        <option value="" disabled selected>Selecione...</option> 
                         <option value="duvidas" >Duvidas</option>
                         <option value="serviços">Serviços</option>
                         <option value="sugestoes">Sugestões</option>
@@ -208,11 +208,64 @@
 
 <script>
     function enviarContato(){
-
+        // let usa sempre dentro da funçao enviar
         let nome = document.getElementById('nome')
-        alert(nome.value)
+
+        if(nome.value ==''){
+            nome.style.border ="2px solid red"
+    }
+
+    else{
+        nome.style.border ='2px solid #202c73'
+    }
+    // {} simboliza onde começa fazer alguma e terminha 
+    let email = document.getElementById('email')
+    
+    if(email.value ==''){
+        email.style.border ="2px solid red"
+    }
+
+    else{
+        email.style.border ="2px solid #202c73"
+    }
+
+    let telefone = document.getElementById('telefone')
+    
+    if(telefone.value ==''){
+        telefone.style.border ="2px solid red"
+    }
+
+    else{
+        telefone.style.border ="2px solid #202c73"
+    }
+
+    if(tipo.value ==''){
+        tipo.style.border ="2px solid red"
+    }
+    else{
+        tipo.style.border ="2px solid #202c73"
 
     }
+}
+
+// // outrojeito de fazer o js
+// function enviarContato(){
+//     validaCampoVaio(nome)
+//     validaCampoVaio(email)
+//     validaCampoVaio(telefone)
+//     validaCampoVaio(tipo)
+// }
+// function enviarContato(campo){
+//     IF(campo.value ==''){
+//         campo.style.border ='2px solid red'
+//     }else{
+//         campo.style.border ="2px solid #202c73"}
+// }
+
+
+
+    
+
 
 
 
