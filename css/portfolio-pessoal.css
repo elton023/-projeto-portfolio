@@ -347,12 +347,44 @@ footer{
 #form-grid option{
     font-size: 1.2rem;
 }
-
-
-
-
-
 /* final footer */
+
+/* inicio do css responsivo */
+
+/* o css inserido dentro @midia abaixo,sera carregado quando
+o dispositivo possuir  tela com largura menor ou iguala 600px */
+/* sera o responsivo,desse codigo p/cima e o desktop */
+
+@media only screen and (max-width: 600px){
+
+    header{
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        padding: 10px;
+    }
+    header ul{
+        padding: 0;
+        margin: 0;
+    }
+
+    #menu{
+        margin-top: 15px;
+        flex-direction: column;
+        /* display: none; */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* final do css responsivo */
     
     
 
