@@ -160,7 +160,7 @@ min-height: 100vh;
 
 }
 
-#cursos-grid{
+#cursos-principal{
 display: grid;
 grid-template-columns: 1fr 2fr;
 max-width: 1200px;
@@ -168,7 +168,7 @@ margin: 0 auto;
 gap: 110px;
 }
 
-#cursos-grid h2{
+#cursos-principal h2{
     font-size: 8rem;
     color: #fff;
     word-break: break-all;
@@ -357,33 +357,117 @@ o dispositivo possuir  tela com largura menor ou iguala 600px */
 
 @media only screen and (max-width: 600px){
 
-    header{
-        width: 100%;
-        flex-direction: column;
-        align-items: start;
-        padding: 10px;
-    }
-    header ul{
-        padding: 0;
-        margin: 0;
-    }
+header{
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+}
 
-    #menu{
-        margin-top: 15px;
-        flex-direction: column;
-        /* display: none; */
-    }
+#menu{
+    margin-top: 15px;
+    flex-direction: column;
+    /* display: none; */
+}
 
+#perfil{
+    width: 100%;
+    gap: 10px;
+    min-height:auto;
+    margin: 20px 0;
+}
+
+#perfil-dados > h1{
+    font-size: 2.3rem;
+    max-width: 100%;
+}
+
+#perfil img{
+    width: 100%;
+}
+
+#projetos {
+    width: 100%;
+    gap: 0;
+    grid-template-columns: 1fr;
+}
+
+#projeto-lista{
+    grid-template-columns: 1fr;
+
+}
+#projetos h2{
+    word-break: normal;
+    font-size: 4rem;
+    text-align: center;
+    max-width: 100%;
+}
+
+#projetos-texto-principal{
+    padding: 10px;
+}
+
+#cursos-principal{
+    width: 100%;
+    
+}
+
+#cursos-principal{
+    width: 100%;
+    gap: 0;
+    grid-template-columns: 1fr;
 
 }
 
+#cursos h2{
+    word-break: normal;
+    font-size: 4rem;
+    text-align: center;
+    max-width: 100%;
+}
 
+#cursos-texto-principal{
+    padding: 10px;
+    margin-bottom: 0;
+}
 
+#cursos-lista{
+    flex-wrap: wrap;
+    padding: 5px;
+}
 
+#cursos-complementares, #idiomas{
+    padding: 10px;
+}
 
+#footer-conteudo{
+    width: 100%;
+    padding: 10px;
+}
 
+#form-grid input{
+    width: 100%;
+}
 
+#footer-conteudo h2{
+    font-size: 4rem;
+    text-align: center;
+    max-width: 100%;
+    letter-spacing: normal;
+}
 
+#footer-inferior{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.alinhar-direita{
+    text-align: center;
+}
+}
 /* final do css responsivo */
     
     
